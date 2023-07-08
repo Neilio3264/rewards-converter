@@ -34,7 +34,7 @@ public class RewardValue {
      *                    milesToCash = (miles -> cash)
      * @return double value that is directly calculated
      */
-    private final double calculateConversion(boolean milesToCash) {
+    private double calculateConversion(boolean milesToCash) {
         return (milesToCash) ? (milesValue * conversionRate) : (cashValue / conversionRate);
     }
 
