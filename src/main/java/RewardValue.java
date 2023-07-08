@@ -14,8 +14,8 @@ public class RewardValue {
     }
 
     public  RewardValue(int milesAmount) {
-        cashValue = calculateConversion(true);
         milesValue = milesAmount;
+        cashValue = calculateConversion(true);
     }
 
     /**
@@ -52,7 +52,7 @@ public class RewardValue {
     }
 
     public void setMilesValue(int milesAmount) {
-        cashValue = calculateConversion(true);
         milesValue = milesAmount;
+        cashValue = calculateConversion(true);
     }
 }
